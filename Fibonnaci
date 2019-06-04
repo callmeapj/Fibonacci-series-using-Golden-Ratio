@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    int n,i,a=1;
+    cin>>n;
+    cout<<0<<endl<<1<<endl;
+    for(i=0;i<n;i++)
+    {
+        cout<<a<<endl;
+        a=round(a*1.61);
+    }
+    return 0;
+}
